@@ -1,0 +1,39 @@
+.a {
+  color: #000;
+}
+
+.a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.a:focus {
+  text-decoration: none;
+  color: #000;;
+}
+
+.link {
+  color: #000;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #000 !important;
+  text-decoration: underline;
+}
+
+.link__google-app {
+  height: 16px;
+  width: 16px;
+  background: url("../images/googleSprite.png") -139px -45px no-repeat;
+  background-size: 528px 68px;
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
