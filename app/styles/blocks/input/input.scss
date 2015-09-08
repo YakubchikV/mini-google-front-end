@@ -5,7 +5,7 @@
 }
 
 .input-search {
-  width: 75%;
+  width: 60%;
   margin-top: 30px;
   height: 40px;
   font-size: 1.4em;
@@ -29,8 +29,10 @@
   height: 40px !important;
   display: inline-block;
   padding: 0 !important;
-  width: 14%;
+  width: auto;
   margin-left: -5px;
   margin-top: -6px;
   border: 1px solid #b9b9b9;
 }
+
+@import "sm-input";
