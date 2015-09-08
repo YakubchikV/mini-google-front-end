@@ -1,0 +1,30 @@
+/* -------- XS -------- */ 
+/* float */
+.h--fl-xs_left {float: left !important; }
+.h--fl-xs_right {float: right !important; }
+.h--fl-xs_none {float: none !important; }
+
+/* -------- SM -------- */ 
+@media (min-width: $sm) {
+	/* float */
+	.h--fl-sm_left {float: left !important; }
+	.h--fl-sm_right {float: right !important; }
+	.h--fl-sm_none {float: none !important; }
+
+}
+/* -------- MD -------- */ 
+@media (min-width: $md) {
+	/* float */
+	.h--fl-md_left {float: left !important; }
+	.h--fl-md_right {float: right !important; }
+	.h--fl-md_none {float: none !important; }
+
+}
+/* -------- LG -------- */ 
+@media (min-width: $lg) {
+	/* float */
+	.h--fl-lg_left {float: left !important; }
+	.h--fl-lg_right {float: right !important; }
+	.h--fl-lg_none {float: none !important; }
+
+}

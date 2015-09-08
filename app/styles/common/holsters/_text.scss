@@ -1,0 +1,50 @@
+/* -------- XS -------- */ 
+/* vertical-align */
+.h--va-xs_top {vertical-align: top !important; }
+.h--va-xs_mid {vertical-align: middle !important; }
+.h--va-xs_bot {vertical-align: bottom !important; }
+
+/* align */
+.h--al-xs_l {align: left !important; }
+.h--al-xs_c {align: center !important; }
+.h--al-xs_r {align: right !important; }
+
+/* -------- SM -------- */ 
+@media (min-width: $sm) {
+	/* vertical-align */
+	.h--va-sm_top {vertical-align: top !important; }
+	.h--va-sm_mid {vertical-align: middle !important; }
+	.h--va-sm_bot {vertical-align: bottom !important; }
+
+	/* align */
+	.h--al-sm_l {align: left !important; }
+	.h--al-sm_c {align: center !important; }
+	.h--al-sm_r {align: right !important; }
+
+}
+/* -------- MD -------- */ 
+@media (min-width: $md) {
+	/* vertical-align */
+	.h--va-md_top {vertical-align: top !important; }
+	.h--va-md_mid {vertical-align: middle !important; }
+	.h--va-md_bot {vertical-align: bottom !important; }
+
+	/* align */
+	.h--al-md_l {align: left !important; }
+	.h--al-md_c {align: center !important; }
+	.h--al-md_r {align: right !important; }
+
+}
+/* -------- LG -------- */ 
+@media (min-width: $lg) {
+	/* vertical-align */
+	.h--va-lg_top {vertical-align: top !important; }
+	.h--va-lg_mid {vertical-align: middle !important; }
+	.h--va-lg_bot {vertical-align: bottom !important; }
+
+	/* align */
+	.h--al-lg_l {align: left !important; }
+	.h--al-lg_c {align: center !important; }
+	.h--al-lg_r {align: right !important; }
+
+}

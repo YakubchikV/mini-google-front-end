@@ -1,0 +1,8 @@
+node_modules
+dist
+.tmp
+.tmp/
+bower_components
+.idea/
+bower_components/redeploy.sh
+app/styles/blocks/_blocks.scss

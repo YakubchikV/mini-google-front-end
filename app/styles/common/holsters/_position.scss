@@ -1,0 +1,34 @@
+/* -------- XS -------- */ 
+/* position */
+.h--pos-xs_abs {position: absolute !important; }
+.h--pos-xs_rel {position: relative !important; }
+.h--pos-xs_fix {position: fixed !important; }
+.h--pos-xs_stat {position: static !important; }
+
+/* -------- SM -------- */ 
+@media (min-width: $sm) {
+	/* position */
+	.h--pos-sm_abs {position: absolute !important; }
+	.h--pos-sm_rel {position: relative !important; }
+	.h--pos-sm_fix {position: fixed !important; }
+	.h--pos-sm_stat {position: static !important; }
+
+}
+/* -------- MD -------- */ 
+@media (min-width: $md) {
+	/* position */
+	.h--pos-md_abs {position: absolute !important; }
+	.h--pos-md_rel {position: relative !important; }
+	.h--pos-md_fix {position: fixed !important; }
+	.h--pos-md_stat {position: static !important; }
+
+}
+/* -------- LG -------- */ 
+@media (min-width: $lg) {
+	/* position */
+	.h--pos-lg_abs {position: absolute !important; }
+	.h--pos-lg_rel {position: relative !important; }
+	.h--pos-lg_fix {position: fixed !important; }
+	.h--pos-lg_stat {position: static !important; }
+
+}

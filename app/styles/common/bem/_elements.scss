@@ -1,0 +1,12 @@
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+/// @alias element
+@mixin e($element) {
+  @include element($element) {
+    @content;
+  }
+}

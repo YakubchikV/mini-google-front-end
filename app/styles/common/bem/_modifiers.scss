@@ -1,0 +1,42 @@
+@mixin modifier($key, $value) {
+  &--#{$key}_#{$value} {
+    @content;
+  }
+}
+
+@mixin modifier-pseudo($key, $value, $pseudo) {
+  &--#{$pseudo}-#{$key}_#{$value}:#{$pseudo} {
+    @content;
+  }
+}
+
+/// @alias modifier
+@mixin m($key, $value) {
+  @include modifier($key, $value) {
+    @content;
+  }
+}
+
+@mixin m-hover($key, $value) {
+  @include modifier-pseudo($key, $value, 'hover') {
+    @content;
+  }
+}
+
+@mixin m-active($key, $value) {
+  @include modifier-pseudo($key, $value, 'active') {
+    @content;
+  }
+}
+
+@mixin m-before($key, $value) {
+  @include modifier-pseudo($key, $value, 'before') {
+    @content;
+  }
+}
+
+@mixin m-after($key, $value) {
+  @include modifier-pseudo($key, $value, 'after') {
+    @content;
+  }
+}

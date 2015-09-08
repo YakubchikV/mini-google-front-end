@@ -1,0 +1,42 @@
+/* -------- XS -------- */ 
+/* color */
+.h--cl-xs_white {color: white !important; }
+.h--cl-xs_black {color: black !important; }
+
+/* color */
+.h--bgc-xs_white {background-color: white !important; }
+.h--bgc-xs_black {background-color: black !important; }
+
+/* -------- SM -------- */ 
+@media (min-width: $sm) {
+	/* color */
+	.h--cl-sm_white {color: white !important; }
+	.h--cl-sm_black {color: black !important; }
+
+	/* color */
+	.h--bgc-sm_white {background-color: white !important; }
+	.h--bgc-sm_black {background-color: black !important; }
+
+}
+/* -------- MD -------- */ 
+@media (min-width: $md) {
+	/* color */
+	.h--cl-md_white {color: white !important; }
+	.h--cl-md_black {color: black !important; }
+
+	/* color */
+	.h--bgc-md_white {background-color: white !important; }
+	.h--bgc-md_black {background-color: black !important; }
+
+}
+/* -------- LG -------- */ 
+@media (min-width: $lg) {
+	/* color */
+	.h--cl-lg_white {color: white !important; }
+	.h--cl-lg_black {color: black !important; }
+
+	/* color */
+	.h--bgc-lg_white {background-color: white !important; }
+	.h--bgc-lg_black {background-color: black !important; }
+
+}

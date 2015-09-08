@@ -1,0 +1,12 @@
+@mixin block() {
+  & {
+    @content;
+  }
+}
+
+/// @alias block
+@mixin b() {
+  @include block() {
+    @content;
+  }
+}

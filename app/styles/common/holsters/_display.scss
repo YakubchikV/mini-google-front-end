@@ -1,0 +1,33 @@
+/* -------- XS -------- */ 
+/* display */
+.h--dis-xs_bl {display: block !important; }
+.h--dis-xs_i {display: inline !important; }
+.h--dis-xs_ibl {display: inline-block !important; }
+.h--dis-xs_none {display: none !important; }
+
+/* -------- SM -------- */ 
+@media (min-width: $sm) {
+	/* display */
+	.h--dis-sm_bl {display: block !important; }
+	.h--dis-sm_i {display: inline !important; }
+	.h--dis-sm_ibl {display: inline-block !important; }
+	.h--dis-sm_none {display: none !important; }
+}
+/* -------- MD -------- */ 
+@media (min-width: $md) {
+	/* display */
+	.h--dis-md_bl {display: block !important; }
+	.h--dis-md_i {display: inline !important; }
+	.h--dis-md_ibl {display: inline-block !important; }
+	.h--dis-md_none {display: none !important; }
+
+}
+/* -------- LG -------- */ 
+@media (min-width: $lg) {
+	/* display */
+	.h--dis-lg_bl {display: block !important; }
+	.h--dis-lg_i {display: inline !important; }
+	.h--dis-lg_ibl {display: inline-block !important; }
+	.h--dis-lg_none {display: none !important; }
+
+}
