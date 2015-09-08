@@ -69,12 +69,16 @@
   text-align: center;
 }
 
-.h--opacity__07 {
+.h--opacity_07 {
   opacity: 0.7;
 }
 
-.h--hover-opacity__06:hover {
+.h--hover-opacity_06:hover {
   opacity: 0.6;
+}
+
+.h--hover-no-opacity:hover {
+  opacity: 1;
 }
 
 .h--pl-xs_28px {
@@ -102,6 +106,10 @@
 
   .h--pl-sm_12px {
     padding-left: 12px;
+  }
+
+  .h--wd-sm_auto {
+    width: auto!important;
   }
 }
 
