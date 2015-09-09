@@ -6,12 +6,12 @@
     border: 1px solid rgba(0, 0, 0, .2);
     box-shadow: 0 2px 10px rgba(0,0,0,.2);
     outline: none;
-    overflow-y: scroll;
+    overflow-y: auto;
     right: 0;
     top: 43px;
     border-radius: 2px;
     min-height: 240px;
-    max-height: 450px;
+    max-height: 485px;
     background-color: #fff;
     text-align: center;
 
@@ -19,7 +19,7 @@
       text-decoration: none;
       margin: 25px;
       padding: 0;
-      max-width: 280px;
+      max-width: 285px;
       overflow: auto;
 
       .list__item {

@@ -18,6 +18,19 @@ $(document).ready(function () {
     });
 
 
+        $('#googleAppsBlock').bind('mousewheel', function(e){
+            if(e.originalEvent.wheelDelta < 0){
+                showMore();
+           }
+        });
+
+        $('#googleAppsBlock').scroll(function () {
+            if($(this).scrollTop() === 0) {
+                hideShowMore();
+            }
+        });
+
+
     $(document).click(function (event) {
         if(!$(event.target).closest('#googleAppLink').length ) {
             if(!$(event.target).closest('#googleAppsBlock').length &&
@@ -60,6 +73,9 @@ $(document).ready(function () {
         $('#lineSeparator').css('display', 'block');
         $('#otherServices').css('display', 'inline-block');
         $('#moreElements').removeClass('h--dis-xs_none');
+        $('.google-apps__list').css({'margin-right':'15px', 'margin-left': '35px'});
+
+
     }
 
     function hideShowMore() {
@@ -67,6 +83,7 @@ $(document).ready(function () {
         $('#lineSeparator').css('display', 'none');
         $('#otherServices').css('display', 'none');
         $('#moreElements').addClass('h--dis-xs_none');
+        $('.google-apps__list').css({'margin-right':'25px', 'margin-left': '25px'});
     }
 
 
