@@ -1,0 +1,23 @@
+.icon-keyboard {
+  background: url("../images/dispKeyboard.gif") no-repeat center;
+  width: 20px;
+  height: 13px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.icon-microphone {
+  background: url("../images/microphone.png") no-repeat center;
+  width: 20px;
+  height: 24px;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: inherit;
+  cursor: pointer;
+  background-size: 30px;
+  margin-top: 7px;
+  margin-right: 10px;
+}

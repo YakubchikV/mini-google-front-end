@@ -16,3 +16,25 @@
   background: #4684EC;
   border: inherit;
 }
+
+.btn-group {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  display: none;
+}
+
+.btn__grey {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  float: none !important;
+}
+
+@import "sm-btn";
