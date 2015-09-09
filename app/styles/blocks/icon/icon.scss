@@ -1,4 +1,4 @@
-.icon-keyboard {
+.icon--keyboard {
   background: url("../images/dispKeyboard.gif") no-repeat center;
   width: 20px;
   height: 13px;
@@ -9,7 +9,7 @@
   margin-left: 10px;
 }
 
-.icon-microphone {
+.icon--microphone {
   background: url("../images/microphone.png") no-repeat center;
   width: 20px;
   height: 24px;
@@ -20,4 +20,74 @@
   background-size: 30px;
   margin-top: 7px;
   margin-right: 10px;
+}
+
+.icon--google-app {
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 64px;
+    background-size: 64px 1996px;
+    margin: 0 auto;
+    background: url('../images/googleappSprite.png') no-repeat;
+}
+
+.icon--my-account {
+  background-position:  0 -276px;
+}
+
+.icon--search {
+   background-position: 0 -1035px;
+}
+
+.icon--maps {
+  background-position: 0 -69px;
+}
+
+.icon--youTube {
+  background-position: 0 -1932px;
+}
+
+.icon--play {
+  background-position: 0 -1242px;
+}
+
+.icon--news {
+  background-position: 0 -483px;
+}
+
+.icon--post {
+  background-position: 0 -966px;
+}
+
+.icon--disk {
+  background-position: 0 -1518px;
+}
+
+.icon--calendar {
+  background-position: 0 -759px;
+}
+
+.icon--google-plus {
+  background-position: 0 -1863px;
+}
+
+.icon--translate {
+  background-position: 0 -207px;
+}
+
+.icon--photos {
+  background-position: 0 -690px;
+}
+
+.icon--documents {
+  background-position: 0 -1794px;
+}
+
+.icon--blogger {
+  background-position: 0 -1449px;
+}
+
+.icon--contacts {
+  background-position: 0 -1725px;
 }
