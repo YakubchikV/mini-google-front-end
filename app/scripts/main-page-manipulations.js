@@ -20,7 +20,12 @@ $(document).ready(function () {
 
     $(document).click(function (event) {
         if(!$(event.target).closest('#googleAppLink').length ) {
-            googleAppHide();
+            if(!$(event.target).closest('#googleAppsBlock').length &&
+                !$(event.target).closest('#googleArrowWhite').length &&  !$(event.target).closest('#googleArrow').length) {
+                googleAppHide();
+                hideShowMore();
+                event.stopPropagation();
+            }
         }
     });
 
@@ -32,6 +37,7 @@ $(document).ready(function () {
             $('#googleAppsBlock').css('display', 'block');
         } else if(googleAppsBlockHide) {
             googleAppHide();
+            hideShowMore();
         }
     }
 
@@ -42,5 +48,24 @@ $(document).ready(function () {
             $('#googleAppsBlock').css('display', 'none');
             googleAppsBlockHide = false;
         }
+    }
+
+    //Click on buttom show more on google apps list
+    $('#showMore').click(function () {
+        showMore();
+    });
+
+    function showMore() {
+        $('#showMore').hide();
+        $('#lineSeparator').css('display', 'block');
+        $('#otherServices').css('display', 'inline-block');
+        $('#moreElements').removeClass('h--dis-xs_none');
+    }
+
+    function hideShowMore() {
+        $('#showMore').show();
+        $('#lineSeparator').css('display', 'none');
+        $('#otherServices').css('display', 'none');
+        $('#moreElements').addClass('h--dis-xs_none');
     }
 });

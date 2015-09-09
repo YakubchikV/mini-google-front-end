@@ -28,7 +28,7 @@
   text-decoration: underline;
 }
 
-.link__google-app {
+.link--google-app {
   height: 16px;
   width: 16px;
   background: url("../images/googleSprite.png") -139px -45px no-repeat;
@@ -49,4 +49,11 @@
 .link--color_blue {
   color: #12c !important;
   cursor: pointer;
+}
+
+.link--other-services {
+  color: #737373 !important;
+  display: none;
+  height: 40px;
+  padding-top: 10px;
 }

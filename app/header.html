@@ -2,7 +2,7 @@
     <div class="col-sm-12">
         <a class="link h--va-xs_mid h--opacity_07">Почта</a>
         <a class="link h--pl-sm_12px h--va-xs_mid h--opacity_07">Картинки</a>
-        <a id="googleAppLink" class="link link__google-app"></a>
+        <a id="googleAppLink" class="link link--google-app"></a>
         <div id="googleArrow" class="google-apps__arrow"></div>
         <div id="googleArrowWhite" class="google-apps__arrow--white"></div>
         <div id="googleAppsBlock" class="google-apps">
@@ -80,7 +80,29 @@
                     </a>
                 </li>
             </ul>
-            <div class="google-apps__show-more">Еще</div>
+            <div id="showMore" class="google-apps__show-more">Еще</div>
+            <div id="lineSeparator" class="line-separator"></div>
+            <ul id="moreElements" class="google-apps__list h--dis-xs_none">
+                <li class="list__item list__item--hover">
+                    <a class="link item-link item-link--hover h--td_none">
+                        <i class="icon--google-app icon--documents"></i>
+                        <span>Документы</span>
+                    </a>
+                </li>
+                <li class="list__item list__item--hover">
+                    <a class="link item-link item-link--hover h--td_none">
+                        <i class="icon--google-app icon--blogger"></i>
+                        <span>Blogger</span>
+                    </a>
+                </li>
+                <li class="list__item list__item--hover">
+                    <a class="link item-link item-link--hover h--td_none">
+                        <i class="icon--google-app icon--contacts"></i>
+                        <span>Контакты</span>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" id="otherServices" class="link link--other-services other-services--hover">Другие сейвисы Google</a>
         </div>
         <button class="btn btn-primary btn__login btn__login--no-hover">Войти</button>
     </div>
