@@ -1,0 +1,18 @@
+.btn__login {
+  border: none !important;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea) !important;
+  font-weight: bold;
+  outline: none;
+  display: inline-block;
+  line-height: 28px;
+  padding: 1px 13px;
+  border-radius: 2px;
+  margin-left: 18px !important;
+  vertical-align: middle;
+  font-size: 1em;
+}
+
+.btn__login--no-hover:hover {
+  background: #4684EC;
+  border: inherit;
+}
