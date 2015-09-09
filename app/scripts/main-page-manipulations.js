@@ -68,4 +68,37 @@ $(document).ready(function () {
         $('#otherServices').css('display', 'none');
         $('#moreElements').addClass('h--dis-xs_none');
     }
+
+
+    //show or hide settings block when click on settings link on footer
+    var settingsHide = false;
+
+    $('#settings').click(function () {
+        if(!settingsHide) {
+            showSettings();
+        } else if(settingsHide) {
+            hideSettings();
+        }
+    });
+
+    function showSettings() {
+        if(!settingsHide) {
+            $('#settingsBlock').css('display', 'block');
+            settingsHide = true;
+        }
+    }
+
+    function hideSettings() {
+        if(settingsHide) {
+            $('#settingsBlock').css('display', 'none');
+            settingsHide = false;
+        }
+    }
+
+    $(document).click(function (event) {
+        if(!$(event.target).closest('#settingsBlock').length && !$(event.target).closest('#settings').length) {
+            hideSettings();
+            event.stopPropagation();
+        }
+    });
 });
