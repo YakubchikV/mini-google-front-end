@@ -12,11 +12,11 @@
     margin: 10px 25px;
     padding: 0;
 
-    .settings-item {
+    .settings__item {
       list-style: none !important;
       margin-bottom: 5px;
 
-      .settings-link--hover:hover {
+      .settings__link--hover:hover {
         color: #737373!important;
         text-decoration: underline #737373 !important;
       }

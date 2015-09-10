@@ -1,0 +1,10 @@
+.img--logo-main {
+  display: inline-block;
+  width: 45%;
+  background: url("../images/main-logo.png") no-repeat;
+  background-size: 100%;
+  margin-top: 25%;
+}
+
+@import "sm-img";
+@import "md-img";

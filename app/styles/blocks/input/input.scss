@@ -4,25 +4,25 @@
   text-align: center;
 }
 
-.input-search {
+.input--search {
   width: 60%;
   margin-top: 30px;
   height: 40px;
-  font-size: 1.4em;
-  padding: 5px 0px 5px 9px;
+  font-size: 1.3em;
+  padding: 8px 0px 5px 9px;
   display: inline-block;
   border: 1px solid #b9b9b9;
   border-right: 0;
 }
 
-.input-search:focus {
+.input--search_focus:focus {
   box-shadow: none;
   border: 1px solid #4285f4;
   border-right: 0;
   outline-color: transparent;
 }
 
-.input-search__addon {
+.input--search_addon {
   background: none !important;
   border-radius: 0;
   vertical-align: middle;
