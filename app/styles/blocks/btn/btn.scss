@@ -53,5 +53,15 @@
   color: #222;
 }
 
+.btn--search {
+  height: 40px;
+  width: 40px;
+  margin-top: -7px;
+  margin-left: -5px;
+  border-radius: 0;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea) !important;
+  border: 0;
+}
+
 
 @import "sm-btn";

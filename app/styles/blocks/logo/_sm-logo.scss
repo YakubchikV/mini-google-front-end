@@ -1,0 +1,8 @@
+@media (min-width: $sm) {
+  .logo--small {
+    display: inline-block;
+    height: 34px;
+    width: 75px;
+    background: url("../images/googleLogoAndOtherSprites.png") -30px -75px no-repeat;
+  }
+}

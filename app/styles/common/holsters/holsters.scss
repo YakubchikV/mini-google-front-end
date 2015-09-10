@@ -93,6 +93,19 @@
   border: 1px solid #4285f4 !important;
 }
 
+.h--curs_pointer {
+  cursor: pointer;
+}
+
+.h--pl-pr-xs_0px {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.h--wd-xs_83pr {
+  width: 83% !important;
+}
+
 @media (min-width: $sm) {
   .h--ml-sm_2px {
     margin-left: 2px;
@@ -118,6 +131,10 @@
 
   .h--wd-sm_auto {
     width: auto!important;
+  }
+
+  .h--wd-sm_56pr {
+    width: 56% !important;
   }
 }
 
