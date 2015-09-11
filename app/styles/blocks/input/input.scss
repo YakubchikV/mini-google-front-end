@@ -1,12 +1,14 @@
 .input-group {
   width: 100%;
+  min-width: 270px;
   display: inline-block;
   text-align: center;
 }
 
 .input--search {
   width: 60%;
-  margin-top: 30px;
+  min-width: 220px;
+  margin-top: 31px;
   height: 40px;
   font-size: 1.3em;
   padding: 8px 0px 5px 9px;

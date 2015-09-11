@@ -35,9 +35,9 @@
           text-align: center;
           display: block;
         }
-        
+
       }
-      
+
       .list__item--hover:hover {
         border: 1px solid #e5e5e5;
       }
@@ -59,7 +59,7 @@
     border-color: transparent;
     border-style: dashed dashed solid;
     border-width: 0 8.5px 8.5px;
-    display: none;
+    display: inline-block;
     position: absolute;
     z-index: 998;
     height: 0;
@@ -75,7 +75,7 @@
     border-bottom-color: #fff;
     border-style: dashed dashed solid;
     border-width: 0 8.5px 8.5px;
-    display: none;
+    display: inline-block;
     position: absolute;
     height: 0;
     width: 0;
