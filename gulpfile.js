@@ -27,7 +27,7 @@ var $ = require('gulp-load-plugins')(),
 var paths = {
     styles: 'app/styles',
     scripts: 'app/scripts',
-    images: 'app/scripts',
+    images: 'app/images',
     fonts: 'app/fonts',
 
 
