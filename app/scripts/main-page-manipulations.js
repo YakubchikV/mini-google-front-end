@@ -68,14 +68,15 @@ $(document).ready(function () {
         showMore();
     });
 
+    var googleAppsList = $('.google-apps__list');
+
     function showMore() {
         $('#showMore').hide();
         $('#lineSeparator').css('display', 'block');
         $('#otherServices').css('display', 'inline-block');
         $('#moreElements').removeClass('h--dis-xs_none');
-        $('.google-apps__list').css({'margin-right':'15px', 'margin-left': '35px'});
-
-
+        googleAppsList.css({'margin-right:': $googleAppsList.style.marginRight - getScrollBarWidth() ,
+            'margin-left:': googleAppsList.style.marginLeft + getScrollBarWidth()});
     }
 
     function hideShowMore() {
@@ -83,9 +84,15 @@ $(document).ready(function () {
         $('#lineSeparator').css('display', 'none');
         $('#otherServices').css('display', 'none');
         $('#moreElements').addClass('h--dis-xs_none');
-        $('.google-apps__list').css({'margin-right':'25px', 'margin-left': '25px'});
+        googleAppsList.css({'margin-right:': googleAppsList.style.marginRight + getScrollBarWidth() ,
+            'margin-left:': googleAppsList.style.marginLeft - getScrollBarWidth()});
     }
 
+    function getScrollBarWidth() {
+        var scrollDiv = document.getElementById("googleAppsBlock");
+        var scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+        return scrollbarWidth;
+    }
 
     //show or hide settings block when click on settings link on footer
     var settingsHide = false;
