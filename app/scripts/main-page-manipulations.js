@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // Input focus
     $('#inputSearch').focus(function () {
         $(this).css("border-right", "0 !important");
         $('#addonSearchInput').css({'border': '1px solid #4285f4', 'border-left': '0'});
@@ -7,6 +8,16 @@ $(document).ready(function () {
     $('#inputSearch').blur(function () {
         $('#addonSearchInput').css({'border': '1px solid #b9b9b9', 'border-left': '0'});
     });
+    // !Input focus
+
+    // header active links on small devices
+    $('.link--mobile').bind('touchstart', function () {
+        if($(this).parent().children().hasClass('link--active')) {
+            $(this).parent().children().removeClass('link--active');
+            $(this).addClass('link--active');
+        }
+    })
+
 
     //Click to google apps icon
     //Show or hide block on click
@@ -92,7 +103,7 @@ $(document).ready(function () {
         $('#lineSeparator').css('display', 'block');
         $('#otherServices').css('display', 'inline-block');
         $('#moreElements').removeClass('h--dis-xs_none');
-        googleAppsList.css({'margin-right:': $googleAppsList.style.marginRight - getScrollBarWidth() ,
+        googleAppsList.css({'margin-right:': googleAppsList.style.marginRight - getScrollBarWidth(),
             'margin-left:': googleAppsList.style.marginLeft + getScrollBarWidth()});
     }
 
@@ -101,7 +112,7 @@ $(document).ready(function () {
         $('#lineSeparator').css('display', 'none');
         $('#otherServices').css('display', 'none');
         $('#moreElements').addClass('h--dis-xs_none');
-        googleAppsList.css({'margin-right:': googleAppsList.style.marginRight + getScrollBarWidth() ,
+        googleAppsList.css({'margin-right:': googleAppsList.style.marginRight + getScrollBarWidth(),
             'margin-left:': googleAppsList.style.marginLeft - getScrollBarWidth()});
     }
 

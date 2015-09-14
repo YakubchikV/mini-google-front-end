@@ -64,16 +64,16 @@
 
 .link--mobile {
   font-size: .85em;
-  padding: 0 8px;
   line-height: 32px;
-  padding-bottom: 5px;
+  padding: 0 8px 5px;
 }
 
 .link--mobile:hover {
-
+  text-decoration: none!important;
+  color: #4285f4 !important;
 }
 
 .link--active {
-  color: #4285f4;
+  color: #4285f4 !important;
   border-bottom: 2px solid #4285f4;
 }
