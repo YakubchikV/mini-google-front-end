@@ -8,8 +8,6 @@ $(document).ready(function () {
         $('#addonSearchInput').css({'border': '1px solid #b9b9b9', 'border-left': '0'});
     });
 
-
-
     //Click to google apps icon
     //Show or hide block on click
     var googleAppsBlockHide = false;
@@ -18,18 +16,37 @@ $(document).ready(function () {
     });
 
 
-        $('#googleAppsBlock').bind('mousewheel', function(e){
-            if(e.originalEvent.wheelDelta < 0){
-                showMore();
-           }
-        });
+    $('#googleAppsBlock').bind('mousewheel', function(event){
+        if(event.originalEvent.wheelDelta < 0){
+            showMore();
+        }
+    });
 
-        $('#googleAppsBlock').scroll(function () {
-            if($(this).scrollTop() === 0) {
-                hideShowMore();
-            }
-        });
+    var lastY;
+    $('#googleAppsBlock').bind('touchmove', function(e) {
 
+        var currentY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
+
+        if (currentY < lastY) {
+            showMore();
+        }
+
+        lastY = currentY;
+
+    });
+
+
+    //$('#googleAppsBlock').bind('touchmove', function(event){
+    //    if(event.originalEvent.wheelDelta < 0){
+    //        showMore();
+    //    }
+    //});
+
+    $('#googleAppsBlock').scroll(function () {
+        if($(this).scrollTop() === 0) {
+            hideShowMore();
+        }
+    });
 
     $(document).click(function (event) {
         if(!$(event.target).closest('#googleAppLink').length ) {
