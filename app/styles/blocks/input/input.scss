@@ -8,13 +8,14 @@
 .input--search {
   width: 60%;
   min-width: 220px;
-  margin-top: 31px;
-  height: 40px;
+  margin-top: 22px;
+  height: 37px;
   font-size: 1.3em;
   padding: 8px 0px 5px 9px;
   display: inline-block;
   border: 1px solid #b9b9b9;
   border-right: 0;
+  vertical-align: bottom;
 }
 
 .input--search_focus:focus {

@@ -1,43 +1,10 @@
 @media (min-width: $sm) {
   .google-apps {
-    display: none;
-    position: absolute;
-    z-index: 100;
-    border: 1px solid rgba(0, 0, 0, .2);
-    box-shadow: 0 2px 10px rgba(0,0,0,.2);
-    outline: none;
-    overflow-y: auto;
-    right: 0;
-    top: 43px;
-    border-radius: 2px;
-    min-height: 240px;
-    max-height: 485px;
-    background-color: #fff;
-    text-align: center;
 
     .google-apps__list {
-      text-decoration: none;
       margin: 25px;
-      padding: 0;
       max-width: 285px;
       width: 285px;
-      overflow: auto;
-
-      .list__item {
-        width: 86px;
-        height: 98px;
-        border: 1px solid #fff;
-        display: inline-block;
-        list-style: none;
-        vertical-align: top;
-
-        .item-link {
-          font-size: 13px;
-          text-align: center;
-          display: block;
-        }
-
-      }
 
       .list__item--hover:hover {
         border: 1px solid #e5e5e5;
